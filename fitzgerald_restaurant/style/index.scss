@@ -1,0 +1,25 @@
+@import "bulma.scss";
+
+.no-hover-mobile {
+  @media (max-width: 1023px) {
+    &:hover {
+      background-color: transparent !important;
+      color: inherit !important;
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .navbar-item {
+    &.has-dropdown {
+      .navbar-dropdown {
+        display: none;
+      }
+      &.is-active {
+        .navbar-dropdown {
+          display: block;
+        }
+      }
+    }
+  }
+}
