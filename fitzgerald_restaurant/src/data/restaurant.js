@@ -1,69 +1,135 @@
+
 const restaurant = {
-  "uuid": "unicorn",
-  "id": "unicorn",
-  "name": "Unicorn Restaurant",
-  "motto": "Chill vibes, great food, and good times.",
-  "hours": "Ouvert tous les jours de 12h à 22h",
+  "uuid": "2",
+  "id": "2",
+  "name": "Jose Pizza",
+  "motto": "Des pizzas au feu de bois authentiques et savoureuses",
+  "hours": "Tous les soirs de 19h à 21h",
   "translations": {
     "fr": {
-      "hours": "Ouvert tous les jours de 12h à 22h",
-      "motto": "Ambiance chill, cuisine savoureuse et moments inoubliables.",
-      "name": "Restaurant Unicorn",
+      "hours": "Tous les soirs de 19h à 21h",
+      "motto": "Des pizzas au feu de bois authentiques et savoureuses",
+      "name": "Jose Pizza"
     },
     "en": {
-      "hours": "Open every day from 12pm to 10pm",
-      "motto": "Chill vibes, great food, and good times.",
-      "name": "Unicorn Restaurant",
+      "hours": "Every evening from 7PM to 9PM",
+      "motto": "Authentic and tasty wood-fired pizzas",
+      "name": "Jose Pizza"
     }
   },
-  "phone": { value: "+33495650862", text: "04 95 65 08 62" },
-  "address": {
-    value: "https://goo.gl/maps/BbKaJZx3Ka321uYd9",
-    text: "Route de la plage, 20260 Calvi",
+  "phone": {
+    "value": "0610102252",
+    "text": "+33 6 10 10 22 52"
   },
-  "contact": { value: "pro@lucas.corsica", text: "unicorn@abam.fr" },
+  "address": {
+    "value": "place de l'église lumio",
+    "text": "Place de l'Église, Lumio"
+  },
+  "contact": {
+    "value": "josepizza@gmail.com",
+    "text": "Email us at josepizza@gmail.com"
+  },
   "socialMedias": [
-    { url: "https://instagram.com/lalicornecalvi", code: "instagram" },
-    { url: "https://facebook.com/lalicornecalvi", code: "facebook" },
-    { url: "https://x.com/lalicornecalvi", code: "x" },
+    {
+      "url": "",
+      "code": "instagram"
+    },
+    {
+      "url": "",
+      "code": "facebook"
+    }
   ],
   "languages": [
-    { code: "fr", name: "Français" },
-    { code: "en", name: "English" },
+    {
+      "code": "fr",
+      "name": "Français"
+    },
+    {
+      "code": "en",
+      "name": "English"
+    }
   ],
   "navigation": [
-    { url: "/#history", uuid: "hisotry", text: "", translations: { fr: { text: "L'Histoire" } , en: { text: "History" } } },
-    { url: "/#restaurant", uuid: "restaurant", text: "", translations: { fr: { text: "Le Restaurant" }, en: { text: "Restaurant" } } },
-    { url: "/#cuisine", uuid: "cuisine", text: "", translations: { fr: { text: "La Cuisine" }, en: { text: "Cuisine" } } },
-    { url: "/menu", uuid: "menu", text: "", translations: { fr: {text: "La Carte"}, en: {text: "Menu" } } },
+    {
+      "url": "/#history",
+      "uuid": "history",
+      "text": "Discover Our Story",
+      "translations": {
+        "fr": {
+          "text": "Découvrez notre histoire"
+        },
+        "en": {
+          "text": "Discover Our Story"
+        }
+      }
+    },
+    {
+      "url": "/#restaurant",
+      "uuid": "restaurant",
+      "text": "Our Restaurant",
+      "translations": {
+        "fr": {
+          "text": "Notre Restaurant"
+        },
+        "en": {
+          "text": "Our Restaurant"
+        }
+      }
+    },
+    {
+      "url": "/#cuisine",
+      "uuid": "cuisine",
+      "text": "Our Cuisine",
+      "translations": {
+        "fr": {
+          "text": "Notre Cuisine"
+        },
+        "en": {
+          "text": "Our Cuisine"
+        }
+      }
+    },
+    {
+      "url": "/menu",
+      "uuid": "menu",
+      "text": "Our Menu",
+      "translations": {
+        "fr": {
+          "text": "Notre Carte"
+        },
+        "en": {
+          "text": "Our Menu"
+        }
+      }
+    }
   ],
   "theme": {
     "code": "unicorn",
     "meta": {
       "uuid": "meta",
-      "title": "",
-      "description": "",
+      "title": "Jose Pizza - Authentic Wood-Fired Pizzas",
+      "description": "Experience traditional wood-fired pizzas at Jose Pizza located in the heart of Lumio. Perfect for family dinners and gatherings.",
       "translations": {
         "fr": {
-          "title": "Restaurant Unicorn Theme",
-          "description": "Unicorn Restaurant Description - Chill vibes, great food, and good times.",
+          "title": "Jose Pizza - Pizzas Authentiques au Feu de Bois",
+          "description": "Découvrez les pizzas traditionnelles cuites au feu de bois chez Jose Pizza au cœur de Lumio. Idéal pour les dîners en famille et les rassemblements."
         },
         "en": {
-          "title": "Restaurant Unicorn Theme",
-          "description": "Unicorn Restaurant Description - Chill vibes, great food, and good times.",
+          "title": "Jose Pizza - Authentic Wood-Fired Pizzas",
+          "description": "Experience traditional wood-fired pizzas at Jose Pizza located in the heart of Lumio. Perfect for family dinners and gatherings."
         }
       }
     },
     "logo": {
       "uuid": "logo",
       "url": "/images/logo.png",
-      "alt": "",
+      "alt": "Jose Pizza Logo",
       "translations": {
         "fr": {
-          "alt": "Unicorn Logo"
+          "alt": "Logo de Jose Pizza"
         },
         "en": {
-          "alt": "Unicorn Logo"
+          "alt": "Jose Pizza Logo"
         }
       }
     },
@@ -71,61 +137,61 @@ const restaurant = {
       "hero": {
         "uuid": "hero",
         "type": "hero",
-        "title": "",
-        "text": "",
+        "title": "Welcome to Jose Pizza",
+        "text": "Where tradition meets taste in every slice!",
         "image": {
           "uuid": "hero_image",
           "url": "/images/hero.png",
-          "alt": "",
+          "alt": "Delicious wood-fired pizza",
           "translations": {
             "fr": {
-              "alt": "Unicorn"
+              "alt": "Délicieuse pizza au feu de bois"
             },
             "en": {
-              "alt": "Unicorn"
+              "alt": "Delicious wood-fired pizza"
             }
           }
         },
         "action": {
           "uuid": "hero_action",
           "type": "link_button",
-          "text": "",
+          "text": "Book your table",
           "to": "#reserve",
           "translations": {
             "fr": {
-              "text": "Réserver"
+              "text": "Réservez votre table"
             },
             "en": {
-              "text": "Book"
+              "text": "Book your table"
             }
           }
         },
         "translations": {
           "fr": {
-            "title": "Unicorn",
-            "text": "Chill vibes, great food, and good times.",
+            "title": "Bienvenue chez Jose Pizza",
+            "text": "Là où la tradition rencontre le goût à chaque part!"
           },
           "en": {
-            "title": "Unicorn",
-            "text": "Chill vibes, great food, and good times.",
+            "title": "Welcome to Jose Pizza",
+            "text": "Where tradition meets taste in every slice!"
           }
         }
       },
       "history": {
         "uuid": "history",
         "type": "image_with_text",
-        "title": "",
-        "text": "",
+        "title": "Our Story",
+        "text": "It all started in 2010 when Jose discovered his passion for making pizzas. Two years later, the legendary food truck was born, bringing Lumio the taste of traditional wood-fired pizzas.",
         "image": {
           "uuid": "history_image",
           "url": "/images/restaurant_1.png",
-          "alt": "",
+          "alt": "Jose's first pizza food truck",
           "translations": {
             "fr": {
-              "alt": "Le restaurant"
+              "alt": "Le premier camion à pizzas de Jose"
             },
             "en": {
-              "alt": "The restaurant"
+              "alt": "Jose's first pizza food truck"
             }
           }
         },
@@ -135,131 +201,129 @@ const restaurant = {
         },
         "translations": {
           "fr": {
-            "title": "L'Histoire",
-            "text": "Depuis 2019, le restaurant Unicorn à Calvi incarne l'esprit de Bali, où se rencontrent détente et convivialité. Fondé par Lucas, Unicorn est né d'une passion pour les voyages et la fusion culinaire, combinant l'essence de la Méditerranée avec des saveurs asiatiques uniques. Avec son ambiance cozy et moderne, ce lieu est rapidement devenu un incontournable pour ceux qui recherchent une expérience gustative inoubliable dans un cadre chaleureux.",
+            "title": "Notre Histoire",
+            "text": "Tout a commencé en 2010 lorsque Jose a découvert sa passion pour la fabrication de pizzas. Deux ans plus tard, le légendaire camion de nourriture est né, apportant à Lumio le goût des pizzas traditionnelles au feu de bois."
           },
           "en": {
-            "title": "History",
-            "text": "Since 2019, the Unicorn restaurant in Calvi embodies the spirit of Bali, where relaxation and conviviality meet. Founded by Lucas, Unicorn was born out of a passion for travel and culinary fusion, combining the essence of the Mediterranean with unique Asian flavors. With its cozy and modern atmosphere, this place quickly became a must-visit for those looking for an unforgettable taste experience in a warm setting.",
+            "title": "Our Story",
+            "text": "It all started in 2010 when Jose discovered his passion for making pizzas. Two years later, the legendary food truck was born, bringing Lumio the taste of traditional wood-fired pizzas."
           }
         }
       },
       "restaurant": {
         "uuid": "restaurant",
         "type": "image_with_text",
-        "title": "",
-        "text": "",
+        "title": "The Atmosphere",
+        "text": "Jose Pizza offers a cozy setting with an authentic Italian vibe, perfect for any casual or special occasion.",
         "image": {
           "url": "/images/indoor_1.png",
-          "alt": "",
+          "alt": "Inside view of Jose Pizza",
           "translations": {
             "fr": {
-              "alt": "Le restaurant"
+              "alt": "Vue intérieure de Jose Pizza"
             },
             "en": {
-              "alt": "The restaurant"
+              "alt": "Inside view of Jose Pizza"
             }
           }
         },
         "translations": {
           "fr": {
-            "title": "Le Restaurant",
-            "text": "Unicorn est plus qu'un simple restaurant à Calvi ; c’est un lieu où l’on vient pour décompresser et savourer de bons moments. Avec un design inspiré de l’atmosphère relaxante de Bali, des chaises en rotin aux éclairages tamisés, tout est conçu pour offrir une expérience chill et accueillante. Que ce soit pour un dîner entre amis ou un repas en amoureux, chaque visite promet des 'Chill vibes, great food, and good times.'",
+            "title": "L'Atmosphère",
+            "text": "Jose Pizza offre un cadre chaleureux avec une ambiance italienne authentique, parfait pour toute occasion, qu'elle soit informelle ou spéciale."
           },
           "en": {
-            "title": "Restaurant",
-            "text": "Unicorn is more than just a restaurant in Calvi; it is a place to unwind and enjoy good times. With a design inspired by the relaxing atmosphere of Bali, from rattan chairs to soft lighting, everything is designed to offer a chill and welcoming experience. Whether for a dinner with friends or a meal with your loved one, each visit promises 'Chill vibes, great food, and good times.'",
-          },
+            "title": "The Atmosphere",
+            "text": "Jose Pizza offers a cozy setting with an authentic Italian vibe, perfect for any casual or special occasion."
+          }
         }
       },
       "cuisine": {
         "uuid": "cuisine",
         "type": "three_pictures",
-        "title": "",
-        "text": "",
+        "title": "Our Signature Dishes",
+        "text": "Sample the best of Jose Pizza with our selection of wood-fired specialties, each crafted with love and the freshest ingredients.",
         "images": [
           {
             "uuid": "cuisine_image_1",
             "url": "/images/plat_1.png",
-            "alt": "",
+            "alt": "Margherita Pizza",
             "translations": {
               "fr": {
-                "alt": "Plat 1"
+                "alt": "Pizza Margherita"
               },
               "en": {
-                "alt": "Dish 1"
+                "alt": "Margherita Pizza"
               }
             }
           },
           {
             "uuid": "cuisine_image_2",
             "url": "/images/plat_2.png",
-            "alt": "",
+            "alt": "Pepperoni Pizza",
             "translations": {
               "fr": {
-                "alt": "Plat 2"
+                "alt": "Pizza au pepperoni"
               },
               "en": {
-                "alt": "Dish 2"
+                "alt": "Pepperoni Pizza"
               }
             }
           },
           {
             "uuid": "cuisine_image_3",
             "url": "/images/plat_3.png",
-            "alt": "",
+            "alt": "Custom Wood-Fired Pizza",
             "translations": {
               "fr": {
-                "alt": "Plat 3"
+                "alt": "Pizza personnalisée au feu de bois"
               },
               "en": {
-                "alt": "Dish 3"
+                "alt": "Custom Wood-Fired Pizza"
               }
             }
-          },
+          }
         ],
         "action": {
           "uuid": "cuisine_action",
           "type": "link_button",
-          "text": "",
+          "text": "Explore the Menu",
           "to": "/menu",
           "translations": {
             "fr": {
-              "text": "Découvrir la carte"
+              "text": "Explorer la Carte"
             },
             "en": {
-              "text": "Discover the menu"
+              "text": "Explore the Menu"
             }
           }
         },
         "translations": {
           "fr": {
-            "title": "La Cuisine",
-            "text": "Chez Unicorn, la cuisine fusion est reine. Notre chef mêle habilement les influences méditerranéennes avec des touches asiatiques pour créer des plats aussi visuellement saisissants que savoureux. De la fraîcheur des produits locaux aux épices exotiques, chaque bouchée raconte une histoire de voyage et de découverte. Découvrez une carte créative où poissons grillés côtoient des sushis réinventés et des mezzés parfumés, pour une expérience gustative unique à Calvi.",
+            "title": "Nos Plats Signature",
+            "text": "Dégustez le meilleur de Jose Pizza avec notre sélection de spécialités au feu de bois, chacune préparée avec amour et les ingrédients les plus frais."
           },
           "en": {
-            "title": "Cuisine",
-            "text": "At Unicorn, fusion cuisine is king. Our chef skillfully blends Mediterranean influences with Asian touches to create dishes that are as visually stunning as they are tasty. From the freshness of local products to exotic spices, each bite tells a story of travel and discovery. Discover a creative menu where grilled fish rubs shoulders with reinvented sushi and fragrant mezzes, for a unique taste experience in Calvi.",
+            "title": "Our Signature Dishes",
+            "text": "Sample the best of Jose Pizza with our selection of wood-fired specialties, each crafted with love and the freshest ingredients."
           }
         }
       },
       "contact": {
         "uuid": "contact",
-        "title": "",
-        "text": "",
+        "title": "Get in Touch",
+        "text": "Reach out to us for reservations, special events, or just to say hi!",
         "translations": {
           "fr": {
-            "title": "La Réservation",
-            "text": "Pour toute réservation, question ou demande spéciale, n’hésitez pas à nous contacter. L’équipe d’Unicorn se fera un plaisir de vous répondre rapidement pour vous garantir une expérience unique dans notre restaurant à Calvi. Remplissez simplement le formulaire ci-dessous et laissez-nous nous occuper du reste !"
+            "title": "Prenez Contact",
+            "text": "Contactez-nous pour des réservations, des événements spéciaux ou juste pour dire bonjour!"
           },
           "en": {
-            "title": "Reservation",
-            "text": "For any reservation, question or special request, do not hesitate to contact us. The Unicorn team will be happy to respond quickly to ensure you have a unique experience in our restaurant in Calvi. Simply fill out the form below and let us take care of the rest!"
+            "title": "Get in Touch",
+            "text": "Reach out to us for reservations, special events, or just to say hi!"
           }
         }
-      },
+      }
     }
   }
-}
-
-export { restaurant }
+};
