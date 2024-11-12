@@ -1,5 +1,5 @@
 
-const restaurant = {
+export const restaurant = {
   "uuid": "2",
   "id": "2",
   "name": "Jose Pizza",

@@ -16,6 +16,7 @@
   GATSBY_GTAG = 'ko'
   GATSBY_ABAM_MENU = 'la-carte'
   # GATSBY_ABAM_API_TOKEN = 'to_set_manually'
+  # PIWIT_GITHUB_TOKEN = 'to_set_manually'
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
