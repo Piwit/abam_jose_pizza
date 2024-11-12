@@ -4,9 +4,7 @@
   functions = "netlify/functions"
   publish = "fitzgerald_restaurant/public"
 
-[build.environment]
-  TAMERE = "https://app.aboireetamanger.fr/abam/apiavailabledish"
-  ENSLIP = "fuck"
+[context.production]
   GATSBY_ABAM_API_AVAILABLEDISH_URL = "https://app.aboireetamanger.fr/abam/apiavailabledish"
   GATSBY_ABAM_API_CONTACT_URL = "https://app.aboireetamanger.fr/abam/apicontact"
   GATSBY_ABAM_API_DISHTYPE_URL = "https://app.aboireetamanger.fr/abam/apidishtype"
@@ -16,6 +14,7 @@
   GATSBY_ABAM_API_REFRESH_INTERVAL = "60"
   GATSBY_GTAG = "ko"
   GATSBY_ABAM_MENU = "la-carte"
+  NPM_CONFIG_USERCONFIG = ".npmrc-netlify"
   # GATSBY_ABAM_API_TOKEN = "to_set_manually"
   # PIWIT_GITHUB_TOKEN = "to_set_manually"
 
