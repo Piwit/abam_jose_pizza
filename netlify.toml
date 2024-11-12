@@ -5,6 +5,8 @@
   publish = "fitzgerald_restaurant/public"
 
 [build.environment]
+  TAMERE = "https://app.aboireetamanger.fr/abam/apiavailabledish"
+  ENSLIP = "fuck"
   GATSBY_ABAM_API_AVAILABLEDISH_URL = "https://app.aboireetamanger.fr/abam/apiavailabledish"
   GATSBY_ABAM_API_CONTACT_URL = "https://app.aboireetamanger.fr/abam/apicontact"
   GATSBY_ABAM_API_DISHTYPE_URL = "https://app.aboireetamanger.fr/abam/apidishtype"
