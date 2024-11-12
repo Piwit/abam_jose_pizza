@@ -4,7 +4,7 @@
   functions = "netlify/functions"
   publish = "fitzgerald_restaurant/public"
 
-[context.production.environment]
+[build.environment]
   GATSBY_ABAM_API_AVAILABLEDISH_URL = "https://app.aboireetamanger.fr/abam/apiavailabledish"
   GATSBY_ABAM_API_CONTACT_URL = "https://app.aboireetamanger.fr/abam/apicontact"
   GATSBY_ABAM_API_DISHTYPE_URL = "https://app.aboireetamanger.fr/abam/apidishtype"
@@ -15,21 +15,3 @@
   GATSBY_GTAG = "ko"
   GATSBY_ABAM_MENU = "la-carte"
   NPM_CONFIG_USERCONFIG = ".npmrc-netlify"
-  # GATSBY_ABAM_API_TOKEN = "to_set_manually"
-  # PIWIT_GITHUB_TOKEN = "to_set_manually"
-
-  ## Uncomment to use this redirect for Single Page Applications like create-react-app.
-  ## Not needed for static site generators.
-  #[[redirects]]
-  #  from = "/*"
-  #  to = "/index.html"
-  #  status = 200
-
-  ## (optional) Settings for Netlify Dev
-  ## https://github.com/netlify/cli/blob/main/docs/netlify-dev.md#project-detection
-  #[dev]
-  #  command = "yarn start" # Command to start your dev server
-  #  port = 3000 # Port that the dev server will be listening on
-  #  publish = "dist" # Folder with the static content for _redirect file
-
-  ## more info on configuring this file: https://ntl.fyi/file-based-build-config
