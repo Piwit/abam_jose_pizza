@@ -2,7 +2,7 @@
   base = "fitzgerald_restaurant"
   command = "gatsby build"
   functions = "netlify/functions"
-  publish = "fitzgerald_restaurant/public"
+  publish = "public"
 
 [build.environment]
   GATSBY_ABAM_API_AVAILABLEDISH_URL = "https://app.aboireetamanger.fr/abam/apiavailabledish"
