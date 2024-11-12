@@ -15,3 +15,5 @@
   GATSBY_GTAG = "ko"
   GATSBY_ABAM_MENU = "la-carte"
   NPM_CONFIG_USERCONFIG = ".npmrc-netlify"
+  # PIWIT_GITHUB_TOKEN = "secret"
+  # GATSBY_ABAM_API_TOKEN = "secret"
