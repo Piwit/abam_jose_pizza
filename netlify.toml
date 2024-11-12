@@ -14,7 +14,6 @@
   GATSBY_ABAM_API_REFRESH_INTERVAL = "60"
   GATSBY_GTAG = "ko"
   GATSBY_ABAM_MENU = "la-carte"
-  NPM_CONFIG_USERCONFIG = ".npmrc-netlify"
   # GATSBY_ABAM_API_TOKEN = "to_set_manually"
   # PIWIT_GITHUB_TOKEN = "to_set_manually"
 
